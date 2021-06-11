@@ -1,5 +1,17 @@
 # Rust, Neon, Electron
 
+NOTE: You probably want the workspace from which this was forked:
+
+https://github.com/mike-barber/electron-neon-rust
+
+This fork only exists to test getting a stack backtrace that shows the Rust call chain.
+
+npm run build    # builds in release mode
+
+npm run build-debug  # builds in debug mode
+
+The original readme follows:
+
 Electron running native Rust code is a very appealing idea: we get a decent cross-platform user interface with all the performance of native Rust underneath it, and the convenience of Node.js in the middle.
 
 Neon is a really useful project that permits us to write native Rust modules that work with Node.js. 

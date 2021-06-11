@@ -18,6 +18,7 @@
   <script>
     try {
       document.write(`<pre>${require('hello').hello()}</pre>`);
+      document.write(`<pre>${require('hello').crash()}</pre>`);
     } catch (e) {
       document.write(`<pre>${e.stack}</pre>`);
     }
